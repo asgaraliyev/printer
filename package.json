@@ -5,7 +5,6 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "publish": "npm run  publish & git add . & git commit -m 'test' & git push origin main "
   },
   "repository": {
     "type": "git",

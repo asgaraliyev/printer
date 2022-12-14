@@ -1,0 +1,26 @@
+{
+  "name": "asgar-printer",
+  "version": "1.0.2",
+  "description": "asgar-printer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asgaraliyev/asgar-printer.git"
+  },
+  "keywords": [
+    "pulpal"
+  ],
+  "author": "asgaraliyev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asgaraliyev/asgar-printer/issues"
+  },
+  "homepage": "https://github.com/asgaraliyev/asgar-printer#readme",
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  }
+}

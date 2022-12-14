@@ -1,0 +1,81 @@
+body:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: asd;
+    background-clip: asd;
+    background-size: contain;
+    background-position: center;
+    background-size: 500px;
+    background-repeat-x: no-repeat;
+  }
+  * {
+    margin:0;
+    padding: 0;
+    page-break-after: auto;
+  }
+  
+  .float-right{
+      float: right!important;
+  }
+  
+  .float-left{
+      float: right!important;
+  }
+  .break-page{
+    page-break-after: always;
+  }
+  .header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    page-break-after: always;
+    min-height: 100px;
+  }
+  .footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    page-break-after: always;
+    left: 0;
+  
+  }
+  @media print{
+    .footer{
+      position: fixed;
+    }
+    .header{
+      position: fixed;
+    }
+  }
+  .d-flex{
+    display: flex;
+  }
+  .j-between{
+    justify-content: space-between;
+  }
+  .j-around{
+    justify-content: space-around;
+  }
+  .print-page{
+    /*border: 1px solid black;*/
+    position: relative;
+    page-break-after: always;
+    padding-top:10px ;
+  }
+  .print-page .background{
+    opacity: 0.1;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+  }
+  
